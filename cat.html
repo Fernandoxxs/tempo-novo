@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!-- saved from url=(0111)file:///C:/Users/fxsilva/OneDrive%20-%20Claro%20SA/Documentos/Dash%20categoriza%C3%A7%C3%A3o/DASH-Download.html -->
+<html lang="pt-BR" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contagem de Categorização</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f3f5f7;color:#15202b;font-family:Segoe UI,Arial,sans-serif}.top{background:linear-gradient(110deg,#a90e18,#d5232c);color:#fff;padding:20px 28px;display:flex;justify-content:space-between}.top h1{margin:0;font-size:34px}.top p{margin:5px 0 0;font-size:18px}.wrap{padding:14px}.nav,.toolbar{display:flex;gap:8px;flex-wrap:wrap}.nav{margin-bottom:12px}.nav a{background:#fff;border:1px solid #d8dee5;border-radius:7px;padding:8px 14px;color:#222;text-decoration:none}.grid{display:grid;gap:12px}.kpis{grid-template-columns:repeat(5,minmax(0,1fr));align-items:stretch}.card,.panel,.flt{background:#fff;border:1px solid #dde2e8;border-radius:10px;box-shadow:0 2px 7px #0000000b}.card{padding:17px}.kpis>.card{height:90px;min-height:90px;padding:10px}.filters>.flt{min-height:90px;display:flex;flex-direction:column;justify-content:center}.lab{font-size:14px}.val{font-size:30px;font-weight:800;margin-top:6px}.red{color:#c81722}.green{color:#26883a}.blue{color:#0878c9}.filters{grid-template-columns:1fr 1.5fr 1.2fr 1.2fr 1.7fr auto;margin-top:12px}.flt{padding:10px}.flt label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}.flt select,.flt input{width:100%;padding:8px;border:1px solid #cdd5de;border-radius:5px}.btn{border:0;border-radius:7px;padding:10px 14px;font-weight:700;cursor:pointer}.redb{background:#c51923;color:#fff}.blueb{background:#0874bd;color:#fff}.greenb{background:#26883a;color:#fff}.amberb{background:#e49a18;color:#fff}.history-panel{margin-top:12px;padding-top:10px;border-top:1px solid #dde2e8}.history-panel h4{margin:0 0 8px;font-size:14px}.history-list{display:grid;gap:7px;max-height:190px;overflow:auto}.history-item{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px;padding:8px;background:#f5f6f7;border-radius:6px;font-size:12px}.history-name{font-weight:700;overflow-wrap:anywhere}.history-meta{color:#475467}.history-open{padding:7px 10px;white-space:nowrap}.history-error{color:#9d1c1c;font-size:12px;margin-bottom:8px}.history-empty{font-size:12px;color:#667085;padding:6px 0}.validation{margin-top:10px;padding:9px 10px;border-radius:7px;font-size:12px;background:#eef2f6;color:#344054}.validation.ok{background:#eaf7ed;color:#176b2c;border-left:4px solid #26883a}.validation.err{background:#fff0f0;color:#9d1c1c;border-left:4px solid #c51923}.validation.warn{background:#fff5df;color:#7a5200;border-left:4px solid #e49a18}.content{grid-template-columns:repeat(3,1fr);margin-top:12px}.panel{padding:14px;min-height:280px}.panel h3{margin:0 0 10px}.canvas{height:220px}.notice{background:#fff4dc;border-left:4px solid #e49a18;padding:9px;margin-top:12px;font-size:13px}.summary{font-size:17px;line-height:1.5}.tablepanel{margin-top:12px}.tablewrap{max-height:430px;overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th{position:sticky;top:0;background:#b81720;color:#fff;padding:10px;white-space:nowrap}td{border:1px solid #d8dde3;padding:8px;white-space:nowrap}tbody tr:nth-child(even){background:#f5f6f7}.barlist{display:grid;gap:8px;padding:8px 2px}.barrow{display:grid;grid-template-columns:34px 1fr 46px;align-items:center;gap:8px;font-size:12px}.bartrack{height:18px;background:#edf0f3;border-radius:5px;overflow:hidden}.barfill{height:100%;background:#c51923;border-radius:5px}.barvalue{text-align:right;font-weight:700}.donutwrap{height:100%;display:grid;grid-template-columns:46% 54%;align-items:center}.donut{width:128px;height:128px;border-radius:50%;margin:auto;position:relative}.donut:after{content:"";position:absolute;inset:29px;background:#fff;border-radius:50%}.legend{display:grid;gap:7px;font-size:10px}.legendrow{display:grid;grid-template-columns:12px 1fr auto;gap:6px}.swatch{width:10px;height:10px;border-radius:2px}.timeline{height:100%;display:flex;align-items:flex-end;gap:3px;padding:20px 12px 30px 4px;border-bottom:1px solid #d7dde4}.tbar{flex:1;min-width:7px;background:#c51923;border-radius:3px 3px 0 0;position:relative}.tval{position:absolute;bottom:calc(100% + 3px);left:50%;transform:translateX(-50%);font-size:9px;font-weight:700}.tdate{position:absolute;top:calc(100% + 6px);left:50%;transform:translateX(-50%) rotate(-45deg);font-size:8px;color:#667085;white-space:nowrap}.modal{display:none;position:fixed;inset:0;background:#0007;align-items:center;justify-content:center}.modal.show{display:flex}.modal>div{background:#fff;border-radius:12px;padding:22px;width:min(600px,90vw)}.modal>div.success-dialog{width:min(450px,90vw);padding:16px 20px}.success-dialog p{margin:0 0 14px;font-size:13px}.success-dialog .btn{display:block;margin-left:auto;min-width:72px;background:#0b57d0;color:#fff;border-radius:24px}@media(max-width:1000px){.kpis,.content{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.kpis,.content,.filters{grid-template-columns:1fr}.top h1{font-size:24px}}
+</style>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:ContentTypeId msdt:dt="string">0x0101009D1CB255DA76424F860D91F20E6C411800EE3B4FE2C29A4DCDB55229ADEB3DBFE4</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+<style id="analysisStyles">.filters{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.leader-card{display:flex;align-items:flex-start}.leader-info{min-width:0}.import-card{display:flex;align-items:center;justify-content:center}.import-actions{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%}.import-actions .btn{width:min(180px,100%);padding:8px;font-size:12px}.import-actions .validation{display:none}.detail-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.detail-heading h3{margin:0}.detail-actions{display:flex;align-items:center;gap:10px}.detail-actions select{min-width:90px;padding:5px;border:1px solid #cdd5de;border-radius:4px}.detail-actions .btn{min-width:90px;padding:5px 10px}.cause-dashboard{grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:12px}.rank-chart{max-height:300px;overflow:auto}.rank-row{display:grid;grid-template-columns:minmax(90px,1fr) minmax(70px,1.5fr) 36px;align-items:center;gap:8px;margin:9px 0;font-size:12px}.rank-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rank-row>b{text-align:right}.spotlight{background:#fff8e7;border:2px solid #e4ad37}.spotlight strong{display:block;font-size:20px;color:#9a5b00;margin:8px 0 22px;overflow-wrap:anywhere}.history-panel{grid-column:1/-1;margin-top:0;padding:10px 14px;background:#fff;border:1px solid #dde2e8;border-radius:10px}.history-panel h4{margin:0 0 6px}.history-list{display:grid;gap:4px;max-height:130px;overflow:auto}.history-item{display:grid;grid-template-columns:minmax(80px,1fr) auto auto auto;align-items:center;gap:10px;padding:5px 8px;background:#f5f6f7;border-radius:5px;font-size:11px}.history-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}.history-date,.history-count{color:#475467;white-space:nowrap}.history-open{padding:4px 10px;font-size:11px}@media(max-width:600px){.history-item{grid-template-columns:minmax(80px,1fr) auto}.history-date,.history-count{display:none}.detail-heading{align-items:flex-start;flex-wrap:wrap}.detail-actions{width:100%;justify-content:flex-end}}</style></head><body><header class="top"><div><h1>CONTAGEM DE CATEGORIZAÇÃO</h1><p>Análise e acompanhamento das ocorrências operacionais</p></div><div hidden="">Última atualização<br><strong id="last">13/11/2026</strong><br><small style="opacity:.85">Versão: 06/10/2026 13:55</small></div></header><main class="wrap" id="dashboard"><nav class="nav" hidden="" style="display: none;"><a href="file:///C:/Users/fxsilva/OneDrive%20-%20Claro%20SA/Documentos/Dash%20categoriza%C3%A7%C3%A3o/DASH-Download.html#dashboard">Dashboard</a><a href="file:///C:/Users/fxsilva/OneDrive%20-%20Claro%20SA/Documentos/Dash%20categoriza%C3%A7%C3%A3o/DASH-Download.html#regional">Centro-Oeste</a><a href="file:///C:/Users/fxsilva/OneDrive%20-%20Claro%20SA/Documentos/Dash%20categoriza%C3%A7%C3%A3o/DASH-Download.html#detail">Detalhamento</a></nav><section class="grid kpis" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));"><div class="card" hidden=""><div class="lab">Total de Ocorrências</div><div class="val" id="total">92</div></div><div class="card"><div class="lab">Quantidade de Registros</div><div class="val blue" id="records">92</div></div><div class="card"><div class="lab">UFs com Dados</div><div class="val green" id="ufs">3</div></div><div class="card leader-card"><div class="leader-info"><div class="lab">Registros da Causa Líder</div><div class="val red" id="leadQty">36</div></div></div><div class="card import-card"><div class="import-actions"><input id="file" type="file" accept=".csv,.tsv,.txt,.xlsx,.xls,.json,.html,.htm,.xml" hidden=""><button class="btn blueb" id="btnImport" onclick="importFile()">Importar</button><button class="btn redb">Limpar</button><div id="validation" class="validation ok">Dashboard restaurado: IINCIDENTE INFRA IMPACTO_OUTUBRO 2026 (1).xlsx (13/11/2026, 10:32:13).</div></div></div></section><section class="grid filters"><div class="flt"><label>UF</label><select id="fUF"><option value="">Todas as UFs</option><option value="AC">AC</option><option value="RO">RO</option><option value="TO">TO</option></select></div><div class="flt"><label>Categoria</label><select id="fCat"><option value="">Todas as causas</option><option value="DEMORA ATENDIMENTO">DEMORA ATENDIMENTO</option><option value="DISJUNTOR DESARMADO">DISJUNTOR DESARMADO</option><option value="FALHA EM QUADROS E/OU CABOS">FALHA EM QUADROS E/OU CABOS</option><option value="FALHA FCC">FALHA FCC</option><option value="IMPERÍCIA EM ATIVIDADE">IMPERÍCIA EM ATIVIDADE</option><option value="NÃO GEROU INCIDENTE AUTOMÁTICO">NÃO GEROU INCIDENTE AUTOMÁTICO</option><option value="OUTROS">OUTROS</option><option value="SITE INDISPONÍVEL POR FALHA DE OUTRO">SITE INDISPONÍVEL POR FALHA DE OUTRO</option><option value="SITE SEM AUTONOMIA EM BATERIA">SITE SEM AUTONOMIA EM BATERIA</option><option value="VANDALISMO">VANDALISMO</option><option value="verificar sem historico">verificar sem historico</option></select></div><div class="flt"><label>Data Inicial</label><input id="fI" type="date"></div><div class="flt"><label>Data Final</label><input id="fF" type="date"></div><div class="flt" style="display:none"><label>Pesquisa</label><input id="fQ" placeholder="Categoria, arquivo, UF..."></div><div class="flt"><label for="fSite">Site da UF selecionada</label><select id="fSite"><option value="">Todos os sites</option><option value="ACBLI01">ACBLI01</option><option value="ACRBO05">ACRBO05</option><option value="ACRBO10">ACRBO10</option><option value="ACRBO21">ACRBO21</option><option value="ROBTS03">ROBTS03</option><option value="ROCUJ01">ROCUJ01</option><option value="ROCWL03">ROCWL03</option><option value="ROJIP11">ROJIP11</option><option value="ROJIP12">ROJIP12</option><option value="ROKLO02">ROKLO02</option><option value="ROMAC03">ROMAC03</option><option value="ROMAC06">ROMAC06</option><option value="RONVM05">RONVM05</option><option value="ROOPO03">ROOPO03</option><option value="ROOPO04">ROOPO04</option><option value="ROOPO90">ROOPO90</option><option value="ROPTR01">ROPTR01</option><option value="ROPVO07">ROPVO07</option><option value="ROPVO10">ROPVO10</option><option value="ROPVO14">ROPVO14</option><option value="ROPVO28">ROPVO28</option><option value="ROPVO33">ROPVO33</option><option value="ROPVO37">ROPVO37</option><option value="ROPVO45">ROPVO45</option><option value="ROPVO49">ROPVO49</option><option value="ROPVO69">ROPVO69</option><option value="ROPVO88">ROPVO88</option><option value="ROPYM01">ROPYM01</option><option value="RORMM05">RORMM05</option><option value="ROSMG03">ROSMG03</option><option value="ROSRG01">ROSRG01</option><option value="ROVHA01">ROVHA01</option><option value="ROVHA04">ROVHA04</option><option value="ROVHA05">ROVHA05</option><option value="ROVLP01">ROVLP01</option><option value="TOAGC03">TOAGC03</option><option value="TOARN12">TOARN12</option><option value="TOARN15">TOARN15</option><option value="TOARN24">TOARN24</option><option value="TOARP02">TOARP02</option><option value="TOAXX01">TOAXX01</option><option value="TOBDT02">TOBDT02</option><option value="TOBSY01">TOBSY01</option><option value="TOCGO05">TOCGO05</option><option value="TOGUI02">TOGUI02</option><option value="TOIPU01">TOIPU01</option><option value="TOIUK02">TOIUK02</option><option value="TOLZD01">TOLZD01</option><option value="TOLZD02">TOLZD02</option><option value="TOMAT01">TOMAT01</option><option value="TOMUR01">TOMUR01</option><option value="TONAO02">TONAO02</option><option value="TONAZ01">TONAZ01</option><option value="TONRL01">TONRL01</option><option value="TOPAL01">TOPAL01</option><option value="TOPAL02">TOPAL02</option><option value="TOPIT10">TOPIT10</option><option value="TOPKY01">TOPKY01</option><option value="TOPMJ40">TOPMJ40</option><option value="TOPMJ68">TOPMJ68</option><option value="TOPUM03">TOPUM03</option><option value="TOPXC07">TOPXC07</option><option value="TORSN01">TORSN01</option><option value="TOSMG02">TOSMG02</option><option value="TOSSG03">TOSSG03</option><option value="TOSVO04">TOSVO04</option><option value="TOSVV04">TOSVV04</option><option value="TOTAT01">TOTAT01</option><option value="TOTLM03">TOTLM03</option><option value="TOTNS01">TOTNS01</option></select></div><button class="btn redb" style="display:none" onclick="clearF()">Limpar Filtros</button></section><section class="grid content" id="regional"><div class="panel"><h3>Ocorrências por UF</h3><div class="canvas" id="cUF"><div class="barlist"><div class="barrow"><b>AC</b><div class="bartrack"><div class="barfill" style="width:8.333333333333332%"></div></div><div class="barvalue">4</div></div><div class="barrow"><b>DF</b><div class="bartrack"><div class="barfill" style="width:0%"></div></div><div class="barvalue">0</div></div><div class="barrow"><b>GO</b><div class="bartrack"><div class="barfill" style="width:0%"></div></div><div class="barvalue">0</div></div><div class="barrow"><b>MS</b><div class="bartrack"><div class="barfill" style="width:0%"></div></div><div class="barvalue">0</div></div><div class="barrow"><b>MT</b><div class="bartrack"><div class="barfill" style="width:0%"></div></div><div class="barvalue">0</div></div><div class="barrow"><b>RO</b><div class="bartrack"><div class="barfill" style="width:83.33333333333334%"></div></div><div class="barvalue">40</div></div><div class="barrow"><b>TO</b><div class="bartrack"><div class="barfill" style="width:100%"></div></div><div class="barvalue">48</div></div></div></div></div><div class="panel"><h3>Ranking de Categorias</h3><div class="canvas" id="cCat"><div class="donutwrap"><div class="donut" style="background:conic-gradient(#26883a 0% 43.373493975903614%,#0878c9 43.373493975903614% 61.445783132530124%,#e87b1a 61.445783132530124% 79.51807228915663%,#cf1c28 79.51807228915663% 87.95180722891567%,#e8b018 87.95180722891567% 95.18072289156628%,#838891 95.18072289156628% 100.00000000000001%)"></div><div class="legend"><div class="legendrow"><span class="swatch" style="background:#26883a"></span><span>DEMORA ATENDIMENTO</span><b>36</b></div><div class="legendrow"><span class="swatch" style="background:#0878c9"></span><span>OUTROS</span><b>15</b></div><div class="legendrow"><span class="swatch" style="background:#e87b1a"></span><span>SITE SEM AUTONOMIA EM BATERIA</span><b>15</b></div><div class="legendrow"><span class="swatch" style="background:#cf1c28"></span><span>VANDALISMO</span><b>7</b></div><div class="legendrow"><span class="swatch" style="background:#e8b018"></span><span>DISJUNTOR DESARMADO</span><b>6</b></div><div class="legendrow"><span class="swatch" style="background:#838891"></span><span>FALHA EM QUADROS E/OU CABOS</span><b>4</b></div></div></div></div></div><div class="panel"><h3>Evolução das Ocorrências</h3><div class="canvas" id="cTime"><div class="timeline"><div class="tbar" style="height:44.44444444444444%"><span class="tval">4</span><span class="tdate">02/10</span></div><div class="tbar" style="height:33.33333333333333%"><span class="tval">3</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span></div><div class="tbar" style="height:33.33333333333333%"><span class="tval">3</span></div><div class="tbar" style="height:55.55555555555556%"><span class="tval">5</span><span class="tdate">07/10</span></div><div class="tbar" style="height:55.55555555555556%"><span class="tval">5</span></div><div class="tbar" style="height:100%"><span class="tval">9</span></div><div class="tbar" style="height:77.77777777777779%"><span class="tval">7</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span><span class="tdate">11/10</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span></div><div class="tbar" style="height:55.55555555555556%"><span class="tval">5</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span></div><div class="tbar" style="height:33.33333333333333%"><span class="tval">3</span><span class="tdate">15/10</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span></div><div class="tbar" style="height:22.22222222222222%"><span class="tval">2</span></div><div class="tbar" style="height:22.22222222222222%"><span class="tval">2</span></div><div class="tbar" style="height:22.22222222222222%"><span class="tval">2</span><span class="tdate">19/10</span></div><div class="tbar" style="height:66.66666666666666%"><span class="tval">6</span></div><div class="tbar" style="height:44.44444444444444%"><span class="tval">4</span></div><div class="tbar" style="height:33.33333333333333%"><span class="tval">3</span></div><div class="tbar" style="height:33.33333333333333%"><span class="tval">3</span><span class="tdate">23/10</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span></div><div class="tbar" style="height:77.77777777777779%"><span class="tval">7</span></div><div class="tbar" style="height:44.44444444444444%"><span class="tval">4</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span><span class="tdate">28/10</span></div><div class="tbar" style="height:22.22222222222222%"><span class="tval">2</span></div><div class="tbar" style="height:11.11111111111111%"><span class="tval">1</span></div><div class="tbar" style="height:55.55555555555556%"><span class="tval">5</span></div></div></div></div><div class="panel"><h3>Categoria mais recorrente</h3><div id="lead" style="font-size:24px;font-weight:800;text-align:center;margin-top:70px">DEMORA ATENDIMENTO</div></div><div class="panel" hidden=""><h3>Importação e Histórico</h3><div class="toolbar"><button class="btn greenb" onclick="showHistory()">HISTÓRICO</button></div><div class="notice">Compatível com CSV, TSV, TXT, XLSX, XLS em HTML/XML e JSON. As colunas são reconhecidas pelo conteúdo, pelos nomes equivalentes ou pela ordem do modelo DIA, INCIDENTE, UF, SITE, TIPO DE SITE, CAUSA, MOTIVO, AÇÃO e PREVISÃO.</div></div><div class="history-panel" id="historyPanel" hidden=""><h4>Histórico de arquivos (últimos 10)</h4><div id="historyList" class="history-list"><div class="history-item"><span class="history-name" title="IINCIDENTE INFRA IMPACTO_OUTUBRO 2026 (1).xlsx">IINCIDENTE INFRA IMPACTO_OUTUBRO 2026 (1).xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">92 registros</span><button class="btn blueb history-open" onclick="openHistory(0)">ABRIR</button></div><div class="history-item"><span class="history-name" title="Planilha de incidentes 21-10-2026.xlsx">Planilha de incidentes 21-10-2026.xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">81 registros</span><button class="btn blueb history-open" onclick="openHistory(1)">ABRIR</button></div><div class="history-item"><span class="history-name" title="IINCIDENTE INFRA IMPACTO_OUTUBRO 2026 (1).xlsx">IINCIDENTE INFRA IMPACTO_OUTUBRO 2026 (1).xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">92 registros</span><button class="btn blueb history-open" onclick="openHistory(2)">ABRIR</button></div><div class="history-item"><span class="history-name" title="Planilha de incidentes 21-10-2026.xlsx">Planilha de incidentes 21-10-2026.xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">81 registros</span><button class="btn blueb history-open" onclick="openHistory(3)">ABRIR</button></div><div class="history-item"><span class="history-name" title="IINCIDENTE INFRA IMPACTO_OUTUBRO 2026 (1).xlsx">IINCIDENTE INFRA IMPACTO_OUTUBRO 2026 (1).xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">92 registros</span><button class="btn blueb history-open" onclick="openHistory(4)">ABRIR</button></div><div class="history-item"><span class="history-name" title="Planilha de incidentes GO 21-10-2026.xlsx">Planilha de incidentes GO 21-10-2026.xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">81 registros</span><button class="btn blueb history-open" onclick="openHistory(5)">ABRIR</button></div><div class="history-item"><span class="history-name" title="IINCIDENTE INFRA IMPACTO_OUTUBRO 2026.xlsx">IINCIDENTE INFRA IMPACTO_OUTUBRO 2026.xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">92 registros</span><button class="btn blueb history-open" onclick="openHistory(6)">ABRIR</button></div><div class="history-item"><span class="history-name" title="Planilha de incidentes GO 21-10-2026.xlsx">Planilha de incidentes GO 21-10-2026.xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">81 registros</span><button class="btn blueb history-open" onclick="openHistory(7)">ABRIR</button></div><div class="history-item"><span class="history-name" title="Incidentes com impacto 31_10.xlsx">Incidentes com impacto 31_10.xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">391 registros</span><button class="btn blueb history-open" onclick="openHistory(8)">ABRIR</button></div><div class="history-item"><span class="history-name" title="IINCIDENTE INFRA IMPACTO_OUTUBRO 2026.xlsx">IINCIDENTE INFRA IMPACTO_OUTUBRO 2026.xlsx</span><span class="history-date">13/11/2026</span><span class="history-count">92 registros</span><button class="btn blueb history-open" onclick="openHistory(9)">ABRIR</button></div></div></div><div class="panel spotlight"><h3>Causa principal</h3><strong id="topCause">DEMORA ATENDIMENTO (36)</strong><h3>Motivo principal</h3><strong id="topMotive">MUITOS INCs SIMULTÂNEOS (21)</strong></div><div class="panel"><h3>Resumo executivo</h3><div id="summary" class="summary">Foram contabilizadas <b>92</b> ocorrências em <b>92</b> registros. A UF líder é <b>TO</b>, com <b>48</b> registros. A principal causa é <b>DEMORA ATENDIMENTO</b>, com <b>36</b> registros. O principal motivo é <b>MUITOS INCs SIMULTÂNEOS</b>, com <b>21</b> registros.</div></div></section><section id="causeDashboard" class="grid cause-dashboard"><div class="panel"><h3>Principais causas</h3><div id="cCause" class="rank-chart"><div class="barlist"><div class="rank-row"><div class="rank-label" title="DEMORA ATENDIMENTO">DEMORA ATENDIMENTO</div><div class="bartrack"><div class="barfill" style="width:100%"></div></div><b>36</b></div><div class="rank-row"><div class="rank-label" title="OUTROS">OUTROS</div><div class="bartrack"><div class="barfill" style="width:41.66666666666667%"></div></div><b>15</b></div><div class="rank-row"><div class="rank-label" title="SITE SEM AUTONOMIA EM BATERIA">SITE SEM AUTONOMIA EM BATERIA</div><div class="bartrack"><div class="barfill" style="width:41.66666666666667%"></div></div><b>15</b></div><div class="rank-row"><div class="rank-label" title="VANDALISMO">VANDALISMO</div><div class="bartrack"><div class="barfill" style="width:19.444444444444446%"></div></div><b>7</b></div><div class="rank-row"><div class="rank-label" title="DISJUNTOR DESARMADO">DISJUNTOR DESARMADO</div><div class="bartrack"><div class="barfill" style="width:16.666666666666664%"></div></div><b>6</b></div><div class="rank-row"><div class="rank-label" title="FALHA EM QUADROS E/OU CABOS">FALHA EM QUADROS E/OU CABOS</div><div class="bartrack"><div class="barfill" style="width:11.11111111111111%"></div></div><b>4</b></div><div class="rank-row"><div class="rank-label" title="IMPERÍCIA EM ATIVIDADE">IMPERÍCIA EM ATIVIDADE</div><div class="bartrack"><div class="barfill" style="width:11.11111111111111%"></div></div><b>4</b></div><div class="rank-row"><div class="rank-label" title="verificar sem historico">verificar sem historico</div><div class="bartrack"><div class="barfill" style="width:2.7777777777777777%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="FALHA FCC">FALHA FCC</div><div class="bartrack"><div class="barfill" style="width:2.7777777777777777%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="NÃO GEROU INCIDENTE AUTOMÁTICO">NÃO GEROU INCIDENTE AUTOMÁTICO</div><div class="bartrack"><div class="barfill" style="width:2.7777777777777777%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="SITE INDISPONÍVEL POR FALHA DE OUTRO">SITE INDISPONÍVEL POR FALHA DE OUTRO</div><div class="bartrack"><div class="barfill" style="width:2.7777777777777777%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="Sem causa informada">Sem causa informada</div><div class="bartrack"><div class="barfill" style="width:2.7777777777777777%"></div></div><b>1</b></div></div></div></div><div class="panel"><h3>Principais motivos</h3><div id="cMotive" class="rank-chart"><div class="barlist"><div class="rank-row"><div class="rank-label" title="MUITOS INCs SIMULTÂNEOS">MUITOS INCs SIMULTÂNEOS</div><div class="bartrack"><div class="barfill" style="width:100%"></div></div><b>21</b></div><div class="rank-row"><div class="rank-label" title="SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE">SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</div><div class="bartrack"><div class="barfill" style="width:66.66666666666666%"></div></div><b>14</b></div><div class="rank-row"><div class="rank-label" title="BATERIA BLOQUEADA">BATERIA BLOQUEADA</div><div class="bartrack"><div class="barfill" style="width:57.14285714285714%"></div></div><b>12</b></div><div class="rank-row"><div class="rank-label" title="NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)">NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</div><div class="bartrack"><div class="barfill" style="width:52.38095238095239%"></div></div><b>11</b></div><div class="rank-row"><div class="rank-label" title="SITE FORA POR MOTIVO DE VANDALISMO">SITE FORA POR MOTIVO DE VANDALISMO</div><div class="bartrack"><div class="barfill" style="width:33.33333333333333%"></div></div><b>7</b></div><div class="rank-row"><div class="rank-label" title="MOTIVO DE FORÇA MAIOR OU JUSTIFICÁVEL">MOTIVO DE FORÇA MAIOR OU JUSTIFICÁVEL</div><div class="bartrack"><div class="barfill" style="width:19.047619047619047%"></div></div><b>4</b></div><div class="rank-row"><div class="rank-label" title="APENAS REARME">APENAS REARME</div><div class="bartrack"><div class="barfill" style="width:19.047619047619047%"></div></div><b>4</b></div><div class="rank-row"><div class="rank-label" title="CABOS AVARIADOS (DERRETIDOS OU PARTIDOS)">CABOS AVARIADOS (DERRETIDOS OU PARTIDOS)</div><div class="bartrack"><div class="barfill" style="width:19.047619047619047%"></div></div><b>4</b></div><div class="rank-row"><div class="rank-label" title="SUBSTITUIÇÃO POR DEFEITO OU SUBDIMENSIONAMENTO">SUBSTITUIÇÃO POR DEFEITO OU SUBDIMENSIONAMENTO</div><div class="bartrack"><div class="barfill" style="width:9.523809523809524%"></div></div><b>2</b></div><div class="rank-row"><div class="rank-label" title="IMPLANTAÇÃO">IMPLANTAÇÃO</div><div class="bartrack"><div class="barfill" style="width:9.523809523809524%"></div></div><b>2</b></div><div class="rank-row"><div class="rank-label" title="AREA DE RISCO">AREA DE RISCO</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="FALHA TX">FALHA TX</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="TEM BATERIA EQS VERIFICAR">TEM BATERIA EQS VERIFICAR</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="FALHA EM RETIFICADORES">FALHA EM RETIFICADORES</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="FALHA LOCAL OU SISTÊMICA">FALHA LOCAL OU SISTÊMICA</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="SITE FORA POR MOTIVO DE INDISPONIBILIDADE DE UM CONCENTRADOR OU CENTRAL">SITE FORA POR MOTIVO DE INDISPONIBILIDADE DE UM CONCENTRADOR OU CENTRAL</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="FALHA DE TX">FALHA DE TX</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="GMG DESLIGADO DEVIDO RECLAMAÇÃO DE MORADORES">GMG DESLIGADO DEVIDO RECLAMAÇÃO DE MORADORES</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="EQUIPE MANUTENÇÃO INFRA">EQUIPE MANUTENÇÃO INFRA</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="Sem motivo informado">Sem motivo informado</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div><div class="rank-row"><div class="rank-label" title="SITE NÃO POSSUI BATERIAS POR MOTIVO DE VANDALISMO RECENTE">SITE NÃO POSSUI BATERIAS POR MOTIVO DE VANDALISMO RECENTE</div><div class="bartrack"><div class="barfill" style="width:4.761904761904762%"></div></div><b>1</b></div></div></div></div></section><section class="panel tablepanel" id="detail"><div class="detail-heading"><h3>Analítico das Categorizações</h3><div class="detail-actions"><select id="detailUF" aria-label="Filtrar por UF"><option value="">Todas as UFs</option><option value="AC">AC</option><option value="RO">RO</option><option value="TO">TO</option></select><button class="btn redb">Extrair</button></div></div><div class="tablewrap"><table><thead><tr><th>Dia</th><th>Incidente</th><th>UF</th><th>Site</th><th>Tipo de site</th><th>Causa</th><th>Motivo</th><th>Ação</th><th>Previsão</th></tr></thead><tbody id="dataBody"><tr><td>2026-10-31</td><td>INC000006214355</td><td>RO</td><td>ROMAC06</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MOTIVO DE FORÇA MAIOR OU JUSTIFICÁVEL</td><td>PNEU FUROU DO COLABORADOR DA EQS</td><td>NA</td></tr><tr><td>2026-10-31</td><td>INC000006216029</td><td>RO</td><td>ROPVO49</td><td>ESTRATÉGICO</td><td>VANDALISMO</td><td>SITE FORA POR MOTIVO DE VANDALISMO</td><td>OPTAMOS POR NÃO INSTALAR POR VARIOS EVENTOS</td><td>NA</td></tr><tr><td>2026-10-31</td><td>INC000006204570</td><td>RO</td><td>ROBTS03</td><td>CONCENTRADOR &gt; 25</td><td>IMPERÍCIA EM ATIVIDADE</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-31</td></tr><tr><td>2026-10-31</td><td>INC000006221417</td><td>RO</td><td>ROVHA04</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>INCIDENTE FECHADO COMO NÃO TEM AUTONOMIA( ERRADO)</td><td></td></tr><tr><td>2026-10-31</td><td>INC000006223489</td><td>TO</td><td>TOSVO04</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>AUTONOMIA MENOR QUE SLA_CELPOSTE</td><td>NA</td></tr><tr><td>2026-10-30</td><td>INC000006208804</td><td>RO</td><td>ROPVO33</td><td>ESTRATÉGICO</td><td>DISJUNTOR DESARMADO</td><td>APENAS REARME</td><td>FEITO REARME, PRECISA DIAGNOSTICAR MELHOR</td><td>2026-11-13</td></tr><tr><td>2026-10-29</td><td>INC000006177283</td><td>TO</td><td>TONAO02</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE NÃO POSSUI BATERIAS POR MOTIVO DE VANDALISMO RECENTE</td><td>FEITO A SUBSTITUIÇÃO NOVOS BANCOS DE BATERIAS</td><td>2026-11-02</td></tr><tr><td>2026-10-29</td><td>INC000006191297</td><td>TO</td><td>TOTAT01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-28</td><td>INC000006175600</td><td>TO</td><td>TONAZ01</td><td>N/C</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>AUTONOMIA MENOR QUE SLA_CELPOSTE</td><td>NA</td></tr><tr><td>2026-10-27</td><td>INC000006157978</td><td>RO</td><td>ROJIP11</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>SEM RECURSO NO MOMENTO</td><td>NA</td></tr><tr><td>2026-10-27</td><td>INC000006159186</td><td>TO</td><td>TOSSG03</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>AUTONOMIA MENOR QUE SLA_CELPOSTE</td><td>NA</td></tr><tr><td>2026-10-27</td><td>INC000006164134</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-27</td><td>INC000006162845</td><td>TO</td><td>TOGUI02</td><td>SITE DE PONTA</td><td>DISJUNTOR DESARMADO</td><td>APENAS REARME</td><td>FRACIONAR CARGA DCDU</td><td>2026-11-17</td></tr><tr><td>2026-10-26</td><td>INC000006152696</td><td>RO</td><td>ROCWL03</td><td>SITE DE PONTA</td><td>DISJUNTOR DESARMADO</td><td>SUBSTITUIÇÃO POR DEFEITO OU SUBDIMENSIONAMENTO</td><td>AGENDADO JM PARA 17/11/2026 DIAGNOSTICAR MELHOR</td><td>2026-11-17</td></tr><tr><td>2026-10-26</td><td>INC000006152949</td><td>RO</td><td>RORMM05</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MOTIVO DE FORÇA MAIOR OU JUSTIFICÁVEL</td><td>PARE E SIGA NO TRAJETO</td><td>NA</td></tr><tr><td>2026-10-26</td><td>INC000006158938</td><td>RO</td><td>ROPVO88</td><td>SITE DE PONTA</td><td>VANDALISMO</td><td>SITE FORA POR MOTIVO DE VANDALISMO</td><td>FEITO SUBSTITUIÇÃO CABOS DO QTM</td><td>2026-10-26</td></tr><tr><td>2026-10-26</td><td>INC000006155795</td><td>TO</td><td>TOSMG02</td><td>N/C</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>AUTONOMIA MENOR QUE SLA_CELPOSTE</td><td>NA</td></tr><tr><td>2026-10-26</td><td>INC000006157601</td><td>TO</td><td>TORSN01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-26</td><td>INC000006156357</td><td>TO</td><td>TOPIT10</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-26</td><td>INC000006158090</td><td>TO</td><td>TOAGC03</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-25</td><td>INC000006150152</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-23</td><td>INC000006138684</td><td>RO</td><td>ROJIP12</td><td>SITE DE PONTA</td><td>IMPERÍCIA EM ATIVIDADE</td><td>IMPLANTAÇÃO</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-23</td><td>INC000006137396</td><td>RO</td><td>ROOPO03</td><td>SITE DE PONTA</td><td>SITE INDISPONÍVEL POR FALHA DE OUTRO</td><td>SITE FORA POR MOTIVO DE INDISPONIBILIDADE DE UM CONCENTRADOR OU CENTRAL</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-23</td><td>INC000006138065</td><td>RO</td><td>ROOPO90</td><td>SITE DE PONTA</td><td>OUTROS</td><td>FALHA DE TX</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-22</td><td>INC000006130885</td><td>RO</td><td>ROPVO28</td><td>ESTRATÉGICO</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>SEM RECURSO NO MOMENTO</td><td>NA</td></tr><tr><td>2026-10-22</td><td>INC000006134229</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-22</td><td>INC000006134225</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-21</td><td>INC000006122200</td><td>TO</td><td>TOPUM03</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>AUTONOMIA MENOR QUE SLA_CELPOSTE</td><td>NA</td></tr><tr><td>2026-10-21</td><td>INC000006123304</td><td>TO</td><td>TOARP02</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NOC NÃO FEZ ACIONAMENTO</td><td>NA</td></tr><tr><td>2026-10-21</td><td>INC000006123811</td><td>TO</td><td>TOSVV04</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>AUTONOMIA MENOR QUE SLA_CELPOSTE</td><td>NA</td></tr><tr><td>2026-10-21</td><td>INC000006128824</td><td>TO</td><td>TOMUR01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-20</td><td>INC000006116390</td><td>RO</td><td>ROPVO10</td><td>SITE DE PONTA</td><td>VANDALISMO</td><td>SITE FORA POR MOTIVO DE VANDALISMO</td><td>FEITO A TROCA DOS CABOS RRU' ATIVIDADE OMR</td><td>2026-10-20</td></tr><tr><td>2026-10-20</td><td>INC000006121022</td><td>RO</td><td>ROCUJ01</td><td>MONOSITE</td><td>DISJUNTOR DESARMADO</td><td>SUBSTITUIÇÃO POR DEFEITO OU SUBDIMENSIONAMENTO</td><td>FEITO SUBSTITUIÇÃO DO DJ AVARIADO E RETIFICADORES</td><td>2026-10-20</td></tr><tr><td>2026-10-20</td><td>INC000006119871</td><td>TO</td><td>TOARN15</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-20</td><td>INC000006120115</td><td>TO</td><td>TOPAL01</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-20</td><td>INC000006119971</td><td>TO</td><td>TOARP02</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NOC NÃO FEZ ACIONAMENTO</td><td>NA</td></tr><tr><td>2026-10-20</td><td>INC000006122195</td><td>TO</td><td>TOPIT10</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-19</td><td>INC000006111953</td><td>TO</td><td>TOIUK02</td><td>N/C</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>AUTONOMIA MENOR QUE SLA_CELPOSTE</td><td></td></tr><tr><td>2026-10-19</td><td>INC000006114259</td><td>TO</td><td>TOPXC07</td><td>MONOSITE</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td></td><td></td></tr><tr><td>2026-10-18</td><td>INC000006107975</td><td>TO</td><td>TOBSY01</td><td>MONOSITE</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>SOLICITADO ORÇAMENTO PARA TROCA</td><td>2026-10-19</td></tr><tr><td>2026-10-18</td><td>INC000006109621</td><td>TO</td><td>TONRL01</td><td>MONOSITE</td><td></td><td></td><td></td><td></td></tr><tr><td>2026-10-17</td><td>INC000006103025</td><td>TO</td><td>TOPKY01</td><td>MONOSITE</td><td>IMPERÍCIA EM ATIVIDADE</td><td>EQUIPE MANUTENÇÃO INFRA</td><td>REORIENTADO TECNICO</td><td>NA</td></tr><tr><td>2026-10-17</td><td>INC000006105158</td><td>TO</td><td>TOBDT02</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-16</td><td>INC000006094934</td><td>RO</td><td>ROJIP11</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>SEM RECURSO NO MOMENTO</td><td>NA</td></tr><tr><td>2026-10-15</td><td>INC000006089819</td><td>RO</td><td>ROVHA05</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-15</td><td>INC000006093298</td><td>RO</td><td>ROSRG01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-15</td><td>INC000006091020</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-14</td><td>INC000006081858</td><td>AC</td><td>ACBLI01</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-13</td><td>INC000006073543</td><td>RO</td><td>ROPVO69</td><td>SITE DE PONTA</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>SEM RECURSO NO MOMENTO</td><td>NA</td></tr><tr><td>2026-10-13</td><td>INC000006079669</td><td>RO</td><td>ROPVO49</td><td>ESTRATÉGICO</td><td>VANDALISMO</td><td>SITE FORA POR MOTIVO DE VANDALISMO</td><td>FEITO SUBSTITUIÇÃO CABOS DO DC GAB EXPANSÃO</td><td>2026-10-13</td></tr><tr><td>2026-10-13</td><td>INC000006081203</td><td>RO</td><td>ROOPO04</td><td>SITE DE PONTA</td><td>FALHA EM QUADROS E/OU CABOS</td><td>CABOS AVARIADOS (DERRETIDOS OU PARTIDOS)</td><td>SOLICITADO ORÇAMENTO PARA TROCA</td><td>2026-11-20</td></tr><tr><td>2026-10-13</td><td>INC000006081032</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-13</td><td>INC000006081427</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-12</td><td>INC000006072199</td><td>AC</td><td>ACRBO10</td><td>GPON</td><td>VANDALISMO</td><td>SITE FORA POR MOTIVO DE VANDALISMO</td><td>FEITO SUBSTITUIÇÃO CABOS DO DC GAB EXPANSÃO</td><td>2026-10-12</td></tr><tr><td>2026-10-11</td><td>INC000006066060</td><td>RO</td><td>ROPVO49</td><td>ESTRATÉGICO</td><td>VANDALISMO</td><td>SITE FORA POR MOTIVO DE VANDALISMO</td><td>FEITO SUBSTITUIÇÃO CABOS DO DC GAB EXPANSÃO</td><td>2026-10-13</td></tr><tr><td>2026-10-10</td><td>INC000006062883</td><td>RO</td><td>RONVM05</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>FOI ACOPLADO GM PORTATIL</td><td>NA</td></tr><tr><td>2026-10-10</td><td>INC000006058591</td><td>RO</td><td>ROMAC03</td><td>CONCENTRADOR &lt; 25</td><td>NÃO GEROU INCIDENTE AUTOMÁTICO</td><td>FALHA LOCAL OU SISTÊMICA</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-10</td><td>INC000006064979</td><td>RO</td><td>ROOPO04</td><td>SITE DE PONTA</td><td>FALHA EM QUADROS E/OU CABOS</td><td>CABOS AVARIADOS (DERRETIDOS OU PARTIDOS)</td><td>na</td><td>NA</td></tr><tr><td>2026-10-10</td><td>INC000006065509</td><td>RO</td><td>ROPVO69</td><td>SITE DE PONTA</td><td>VANDALISMO</td><td>SITE FORA POR MOTIVO DE VANDALISMO</td><td>FEITO SUBSTITUIÇÃO CABOS DO QTM</td><td>2026-10-10</td></tr><tr><td>2026-10-10</td><td>INC000006066404</td><td>RO</td><td>ROSMG03</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MOTIVO DE FORÇA MAIOR OU JUSTIFICÁVEL</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-10</td><td>INC000006063699</td><td>TO</td><td>TOARN24</td><td>SITE DE PONTA</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>FEITO RESET</td><td>2026-10-10</td></tr><tr><td>2026-10-10</td><td>INC000006065678</td><td>TO</td><td>TOARN12</td><td>SITE DE PONTA</td><td>IMPERÍCIA EM ATIVIDADE</td><td>IMPLANTAÇÃO</td><td>REORIENTADO TECNICO</td><td>NA</td></tr><tr><td>2026-10-09</td><td>INC000006062041</td><td>AC</td><td>ACRBO05</td><td>GPON</td><td>OUTROS</td><td>AREA DE RISCO</td><td>SITE AREA DE RISCO</td><td>NA</td></tr><tr><td>2026-10-09</td><td>INC000006059029</td><td>RO</td><td>ROVHA01</td><td>GPON</td><td>FALHA EM QUADROS E/OU CABOS</td><td>CABOS AVARIADOS (DERRETIDOS OU PARTIDOS)</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-09</td><td>INC000006060914</td><td>RO</td><td>ROOPO04</td><td>SITE DE PONTA</td><td>FALHA EM QUADROS E/OU CABOS</td><td>CABOS AVARIADOS (DERRETIDOS OU PARTIDOS)</td><td>SOLICITADO ORÇAMENTO PARA TROCA</td><td>2026-11-20</td></tr><tr><td>2026-10-09</td><td>INC000006061801</td><td>RO</td><td>ROSMG03</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-09</td><td>INC000006062870</td><td>RO</td><td>RONVM05</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>FOI ACOPLADO GM PORTATIL</td><td>NA</td></tr><tr><td>2026-10-09</td><td>INC000006059984</td><td>TO</td><td>TOMAT01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-27</td></tr><tr><td>2026-10-09</td><td>INC000006060474</td><td>TO</td><td>TOBSY01</td><td>MONOSITE</td><td>SITE SEM AUTONOMIA EM BATERIA</td><td>SITE POSSUI BATERIAS, PORÉM A AUTONOMIA É INSUFICIENTE</td><td>SOLICITADO ORÇAMENTO PARA TROCA</td><td>2026-10-19</td></tr><tr><td>2026-10-09</td><td>INC000006060765</td><td>TO</td><td>TOCGO05</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-09</td><td>INC000006063366</td><td>TO</td><td>TOPAL02</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-08</td><td>INC000006054463</td><td>RO</td><td>ROVLP01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-08</td><td>INC000006054022</td><td>RO</td><td>ROPYM01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>MOTIVO DE FORÇA MAIOR OU JUSTIFICÁVEL</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-08</td><td>INC000006053929</td><td>RO</td><td>ROPVO07</td><td>ESTRATÉGICO</td><td>DISJUNTOR DESARMADO</td><td>APENAS REARME</td><td>FEITO REARME, PRECISA DIAGNOSTICAR MELHOR</td><td>2026-11-12</td></tr><tr><td>2026-10-08</td><td>INC000006054656</td><td>RO</td><td>ROKLO02</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-08</td><td>INC000006053194</td><td>TO</td><td>TOPMJ40</td><td>MONOSITE</td><td>OUTROS</td><td>GMG DESLIGADO DEVIDO RECLAMAÇÃO DE MORADORES</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-07</td><td>INC000006048259</td><td>RO</td><td>ROPVO07</td><td>ESTRATÉGICO</td><td>FALHA FCC</td><td>FALHA EM RETIFICADORES</td><td>TROCA DE RETIFICADORES</td><td>2026-10-07</td></tr><tr><td>2026-10-07</td><td>INC000006048261</td><td>RO</td><td>ROPVO45</td><td>GPON</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>FOI ACOPLADO GM PORTATIL</td><td>NA</td></tr><tr><td>2026-10-07</td><td>INC000006049165</td><td>RO</td><td>ROPVO14</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-07</td><td>INC000006047228</td><td>TO</td><td>TOTNS01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-07</td><td>INC000006047002</td><td>TO</td><td>TOPMJ40</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-05</td><td>INC000006031860</td><td>AC</td><td>ACRBO21</td><td>SITE DE PONTA</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>FEITO RESET</td><td>2026-10-05</td></tr><tr><td>2026-10-05</td><td>INC000006032344</td><td>TO</td><td>TOLZD01</td><td>MONOSITE</td><td>OUTROS</td><td>BATERIA BLOQUEADA</td><td>SOLICITADO A IMPLANTAÇÃO DESBLOQUEIO</td><td>2026-10-06</td></tr><tr><td>2026-10-05</td><td>INC000006032349</td><td>TO</td><td>TOLZD02</td><td>N/C</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-04</td><td>INC000006025792</td><td>TO</td><td>TOTLM03</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-03</td><td>INC000006024386</td><td>RO</td><td>ROPVO37</td><td>SITE DE PONTA</td><td>verificar sem historico</td><td>TEM BATERIA EQS VERIFICAR</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-03</td><td>INC000006021079</td><td>TO</td><td>TOIPU01</td><td>MONOSITE</td><td>DEMORA ATENDIMENTO</td><td>NEGLIGÊNCIA (FALHA NA ALOCAÇÃO DO ATENDIMENTO, DEMORA S/ JUSTIFICATIVA PLAUSÍVEL)</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-03</td><td>INC000006022458</td><td>TO</td><td>TOTLM03</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-02</td><td>INC000006019851</td><td>RO</td><td>ROPTR01</td><td>MONOSITE</td><td>OUTROS</td><td>FALHA TX</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-02</td><td>INC000006018263</td><td>TO</td><td>TOAXX01</td><td>CONCENTRADOR &lt; 25</td><td>DISJUNTOR DESARMADO</td><td>APENAS REARME</td><td>FEITO REARME</td><td>2026-10-02</td></tr><tr><td>2026-10-02</td><td>INC000006020513</td><td>TO</td><td>TOPIT10</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr><tr><td>2026-10-02</td><td>INC000006020348</td><td>TO</td><td>TOPMJ68</td><td>SITE DE PONTA</td><td>DEMORA ATENDIMENTO</td><td>MUITOS INCs SIMULTÂNEOS</td><td>NA</td><td>NA</td></tr></tbody></table></div></section></main><div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalMessage"><div class="success-dialog"><p id="modalMessage">Arquivo importado com sucesso!</p><button class="btn" onclick="E('modal').classList.remove('show')">OK</button></div></div><script>
+const UFS=['AC','DF','GO','MS','MT','RO','TO'],KNOWN=['SITE ATENDIDO COM GMG MÓVEL','ENERGIA REESTABELECIDA PELA CONCESSIONÁRIA','REARME DE DISJUNTOR','SUBSTITUIÇÃO DE COMPONENTES DANIFICADOS','RESET DE MCU DE FCC','RESET DE PLC DE AR CONDICIONADO','MANUTENÇÃO NA CLIMATIZAÇÃO','RECUPERAÇÃO DE VANDALISMO','IMPROCEDENTE'],COLORS=['#26883a','#0878c9','#e87b1a','#cf1c28','#e8b018','#838891'];let DATA=[];const E=id=>document.getElementById(id),norm=x=>String(x??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().trim().replace(/\s+/g,' '),normalizeRankKey=x=>norm(String(x??'')).replace(/[^A-Z0-9 ]/g,' ').replace(/\s+/g,' ').trim(),q=x=>{if(x===null||x===undefined||String(x).trim()==='')return 1;const raw=String(x).trim().replace(/\s+/g,'');if(/^\d+$/.test(raw))return Number(raw);if(/^\d{1,3}(\.\d{3})*,\d+$/.test(raw))return Number(raw.replace(/\./g,'').replace(',', '.'));if(/^\d+,\d+$/.test(raw))return Number(raw.replace(',', '.'));if(/^\d{1,3}(\.\d{3})+$/.test(raw))return Number(raw.replace(/\./g,''));if(/^\d+\.\d+$/.test(raw))return Number(raw);const numeric=Number(raw.replace(/\./g,'').replace(',', '.'));return Number.isFinite(numeric)&&numeric>0?numeric:0},esc=x=>String(x??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));function uf(v){let n=norm(v),m={AC:'AC',ACRE:'AC',DF:'DF','DISTRITO FEDERAL':'DF',GO:'GO',GOIAS:'GO',MS:'MS','MATO GROSSO DO SUL':'MS',MT:'MT','MATO GROSSO':'MT',RO:'RO',RONDONIA:'RO',TO:'TO',TOCANTINS:'TO'};return m[n]||''}function cat(v){let n=norm(v);for(let c of KNOWN)if(norm(c)===n)return c;return String(v||'').trim().replace(/\s+/g,' ').toUpperCase()}function date(v){let s=String(v??'').trim();if(/^\d+(?:\.\d+)?$/.test(s)){let n=Number(s);if(n>20000&&n<80000){let d=new Date(Date.UTC(1899,11,30)+Math.floor(n)*86400000);return d.toISOString().slice(0,10)}}let m=s.match(/^(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})/);if(m)return `${m[3]}-${m[2].padStart(2,'0')}-${m[1].padStart(2,'0')}`;m=s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);return m?`${m[1]}-${m[2].padStart(2,'0')}-${m[3].padStart(2,'0')}`:''}function seed(){let n=1,v={AC:8,DF:17,GO:28,MS:15,MT:31,RO:12,TO:10};for(let[u,k]of Object.entries(v))for(let i=0;i<k;i++)DATA.push({ID:`SIM${n++}`,Data:`2026-09-${String(i%30+1).padStart(2,'0')}`,UF:u,Categoria:KNOWN[i%5],Quantidade:i%3===0?2:1,Arquivo:'DADOS_SIMULADOS',Importacao:'2026-09-30T12:00:00',Chave:`SIM-${u}-${i}`})}function cats(){return [...new Set(DATA.map(x=>x.Categoria))].sort()}function fill(){E('fUF').innerHTML='<option value="">Todos</option>'+UFS.map(x=>`<option>${x}</option>`).join('');let vc=E('fCat').value;E('fCat').innerHTML='<option value="">Todas</option>'+cats().map(x=>`<option>${esc(x)}</option>`).join('');if(cats().includes(vc))E('fCat').value=vc;let d=DATA.map(x=>x.Data).filter(Boolean).sort();if(d.length&&!E('fI').value){E('fI').value=d[0];E('fF').value=d.at(-1)}}function rows(){let z=norm(E('fQ').value);return DATA.filter(x=>(!E('fUF').value||x.UF===E('fUF').value)&&(!E('fCat').value||x.Categoria===E('fCat').value)&&(!E('fI').value||x.Data>=E('fI').value)&&(!E('fF').value||x.Data<=E('fF').value)&&(!z||norm(JSON.stringify(x)).includes(z)))}function drawUF(a){let mx=Math.max(1,...UFS.map(u=>a[u]||0));E('cUF').innerHTML='<div class="barlist">'+UFS.map(u=>`<div class="barrow"><b>${u}</b><div class="bartrack"><div class="barfill" style="width:${(a[u]||0)/mx*100}%"></div></div><div class="barvalue">${a[u]||0}</div></div>`).join('')+'</div>'}function drawCat(a){let t=Object.entries(a).sort((x,y)=>y[1]-x[1]).slice(0,6),sum=t.reduce((s,x)=>s+x[1],0),at=0,st=[];if(!sum){E('cCat').innerHTML='Sem dados';return}t.forEach((x,i)=>{let p=x[1]/sum*100;st.push(`${COLORS[i]} ${at}% ${at+p}%`);at+=p});E('cCat').innerHTML=`<div class="donutwrap"><div class="donut" style="background:conic-gradient(${st.join(',')})"></div><div class="legend">${t.map((x,i)=>`<div class="legendrow"><span class="swatch" style="background:${COLORS[i]}"></span><span>${esc(x[0])}</span><b>${x[1]}</b></div>`).join('')}</div></div>`}function drawTime(r){let a={};r.forEach(x=>a[x.Data]=(a[x.Data]||0)+q(x.Quantidade));let ds=Object.keys(a).sort(),mx=Math.max(1,...ds.map(d=>a[d])),step=Math.max(1,Math.ceil(ds.length/8));E('cTime').innerHTML=`<div class="timeline">${ds.map((d,i)=>`<div class="tbar" style="height:${Math.max(5,a[d]/mx*100)}%"><span class="tval">${a[d]}</span>${i%step===0?`<span class="tdate">${d.slice(5).split('-').reverse().join('/')}</span>`:''}</div>`).join('')}</div>`}function update(){let r=rows(),s=r.reduce((a,x)=>a+q(x.Quantidade),0),ca={},ua={};r.forEach(x=>{ca[x.Categoria]=(ca[x.Categoria]||0)+q(x.Quantidade);ua[x.UF]=(ua[x.UF]||0)+q(x.Quantidade)});let ld=Object.entries(ca).sort((a,b)=>b[1]-a[1])[0],tu=Object.entries(ua).sort((a,b)=>b[1]-a[1])[0];E('total').textContent=s;E('records').textContent=r.length;E('ufs').textContent=new Set(r.map(x=>x.UF)).size;E('leadQty').textContent=ld?ld[1]:0;E('lead').textContent=ld?ld[0]:'-';E('last').textContent=DATA.map(x=>x.Importacao).sort().at(-1)?.slice(0,10).split('-').reverse().join('/')||'-';E('summary').innerHTML=`No período filtrado foram contabilizadas <b>${s}</b> ocorrências em <b>${r.length}</b> registros. ${tu?`A UF líder é <b>${tu[0]}</b>, com <b>${tu[1]}</b>.`:''} ${ld?`A categoria líder é <b>${esc(ld[0])}</b>, com <b>${ld[1]}</b>.`:''}`;E('dataBody').innerHTML=r.slice().sort((a,b)=>b.Data.localeCompare(a.Data)).slice(0,500).map(x=>`<tr><td>${esc(x.Incidente||'')}</td><td>${x.Data.split('-').reverse().join('/')}</td><td>${esc(x.Site||'')}</td><td>${x.UF}</td><td>${esc(x.Categoria)}</td><td>${esc(x.Resolucao||'')}</td><td>${esc(x.Arquivo)}</td><td>${new Date(x.Importacao).toLocaleString('pt-BR')}</td></tr>`).join('');drawUF(ua);drawCat(ca);drawTime(r)}function clearF(){E('fUF').value='';E('fCat').value='';E('fQ').value='';let d=DATA.map(x=>x.Data).filter(Boolean).sort();E('fI').value=d.length?d[0]:'';E('fF').value=d.length?d[d.length-1]:'';update()}function parseCSV(t){let L=t.replace(/^\uFEFF/,'').split(/\r?\n/).filter(x=>x.trim());if(!L.length)return[];let sep=L[0].includes(';')?';':',';function sp(l){let r=[],v='',qq=false;for(let i=0;i<l.length;i++){let c=l[i];if(c==='"'){if(qq&&l[i+1]==='"'){v+='"';i++}else qq=!qq}else if(c===sep&&!qq){r.push(v);v=''}else v+=c}r.push(v);return r}let h=sp(L[0]);return L.slice(1).map(l=>Object.fromEntries(h.map((k,i)=>[k,sp(l)[i]??''])))}async function unzip(bf){let b=new Uint8Array(bf),d=new DataView(bf),e=-1;for(let i=b.length-22;i>=Math.max(0,b.length-65557);i--)if(d.getUint32(i,true)===0x06054b50){e=i;break}if(e<0)throw Error('XLSX inválido');let p=d.getUint32(e+16,true),n=d.getUint16(e+10,true),F={};for(let k=0;k<n;k++){if(d.getUint32(p,true)!==0x02014b50)break;let m=d.getUint16(p+10,true),cs=d.getUint32(p+20,true),nl=d.getUint16(p+28,true),el=d.getUint16(p+30,true),cl=d.getUint16(p+32,true),lo=d.getUint32(p+42,true),name=new TextDecoder().decode(b.slice(p+46,p+46+nl)),ln=d.getUint16(lo+26,true),le=d.getUint16(lo+28,true),z=b.slice(lo+30+ln+le,lo+30+ln+le+cs);if(m===0)F[name]=z;else if(m===8){let ds=new DecompressionStream('deflate-raw');F[name]=new Uint8Array(await new Response(new Blob([z]).stream().pipeThrough(ds)).arrayBuffer())}p+=46+nl+el+cl}return F}async function parseXLSX(bf){
+ let F=await unzip(bf),P=new DOMParser(),S=[];
+ if(F['xl/sharedStrings.xml']){let x=P.parseFromString(new TextDecoder().decode(F['xl/sharedStrings.xml']),'application/xml');S=[...x.getElementsByTagName('si')].map(si=>[...si.getElementsByTagName('t')].map(t=>t.textContent).join(''))}
+ let B=F['xl/worksheets/sheet1.xml'];if(!B)throw Error('Primeira aba nao encontrada');
+ let x=P.parseFromString(new TextDecoder().decode(B),'application/xml'),R=[];
+ for(let row of x.getElementsByTagName('row')){let a=[];for(let c of row.getElementsByTagName('c')){let ref=c.getAttribute('r')||'A1',letters=(ref.match(/[A-Z]+/)||['A'])[0],co=0;for(let ch of letters)co=co*26+ch.charCodeAt(0)-64;co--;let t=c.getAttribute('t')||'',v='';if(t==='inlineStr'){v=[...c.getElementsByTagName('t')].map(z=>z.textContent).join('')}else{v=c.getElementsByTagName('v')[0]?.textContent??'';if(t==='s')v=S[Number(v)]??''}a[co]=v}R.push(a)}
+ let hdr=-1;for(let i=0;i<Math.min(R.length,30);i++){let n=R[i].map(norm);let hits=['INCIDENTE','DATA','SITE','UF','FALHA','RESOLUCAO','CATEGORIA'].filter(k=>n.includes(k)).length;if(hits>=3){hdr=i;break}}
+ if(hdr<0)throw Error('Cabecalho nao localizado. Use colunas INCIDENTE, DATA, SITE, UF, FALHA e RESOLUCAO.');
+ let h=R[hdr].map(v=>String(v??'').trim());return R.slice(hdr+1).filter(r=>r.some(v=>String(v??'').trim())).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]??''])))
+}async function hash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return(h>>>0).toString(16)}const HISTORY_KEY='contagemDashboardHistoryV1';let HISTORY=[],HISTORY_ERROR='';function loadHistory(){try{let raw=localStorage.getItem(HISTORY_KEY);if(!raw){HISTORY=[];return}let parsed=JSON.parse(raw);if(!Array.isArray(parsed))throw Error('Formato inválido do histórico.');let valid=parsed.filter(x=>x&&typeof x.fileName==='string'&&typeof x.importedAt==='string'&&Array.isArray(x.data));HISTORY=valid.slice(0,10);if(valid.length!==parsed.length)HISTORY_ERROR='Alguns itens inválidos foram ignorados.'}catch(e){HISTORY=[];HISTORY_ERROR='Não foi possível carregar o histórico: '+e.message}}function renderHistory(){let warning=HISTORY_ERROR?`<div class="history-error">${esc(HISTORY_ERROR)}</div>`:'',items=HISTORY.map((item,index)=>`<div class="history-item"><div class="history-meta"><div class="history-name">${esc(item.fileName)}</div><div>${new Date(item.importedAt).toLocaleString('pt-BR')} · ${item.data.length} registros</div></div><button class="btn blueb history-open" onclick="openHistory(${index})">ABRIR DASHBOARD</button></div>`).join('');E('historyList').innerHTML=warning+(items||'<div class="history-empty">Nenhum arquivo importado.</div>')}function saveHistory(fileName,importedAt,data){let item={fileName,importedAt,data:data.map(x=>({...x}))},next=[item,...HISTORY].slice(0,10);try{localStorage.setItem(HISTORY_KEY,JSON.stringify(next));HISTORY=next;HISTORY_ERROR='';renderHistory();return true}catch(e){HISTORY_ERROR='Arquivo importado, mas não foi possível salvar no histórico: '+e.message;renderHistory();return false}}function openHistory(index){let item=HISTORY[index];if(!item)return;DATA=item.data.map(x=>({...x}));E('fUF').value='';E('fCat').value='';E('fI').value='';E('fF').value='';E('fQ').value='';fill();update();E('validation').className='validation ok';E('validation').textContent='Dashboard restaurado: '+item.fileName+' ('+new Date(item.importedAt).toLocaleString('pt-BR')+').'}function showHistory(){E('historyPanel').scrollIntoView({behavior:'smooth',block:'center'})}async function readSelectedFile(){let f=E('file').files[0];if(!f)throw Error('Selecione CSV ou XLSX.');let rs=f.name.toLowerCase().endsWith('.xlsx')?await parseXLSX(await f.arrayBuffer()):parseCSV(await f.text());if(!rs.length)throw Error('Arquivo sem registros.');return {f,rs}}function detectColumns(rs){let hs=Object.keys(rs[0]||{}),clean=h=>norm(h).replace(/[^A-Z0-9 ]/g,' ').replace(/\s+/g,' ').trim(),find=a=>hs.find(h=>{let z=clean(h);return a.some(k=>z===k||z.startsWith(k+' ')||z.endsWith(' '+k))});return {ci:find(['INCIDENTE','INC CAUSADOR','INC']),cd:find(['DATA DA OCORRENCIA','DATA OCORRENCIA','DATA']),cs:find(['NOME SITE','SITE']),cu:find(['UNIDADE FEDERATIVA','ESTADO','UF']),cc:find(['CATEGORIZACAO','CLASSIFICACAO','CATEGORIA','FALHA','TIPO']),cr:find(['ACAO CORRIGIDO','RESOLUCAO','SOLUCAO','CORRIGIDO','ACAO']),cq:find(['QUANTIDADE','QTDE','QTD','TOTAL'])}}async function validateImport(){VALIDATED=null;E('btnImport').disabled=true;let box=E('validation');box.className='validation warn';box.textContent='Validando arquivo...';try{let {f,rs}=await readSelectedFile(),c=detectColumns(rs),missing=[];if(!c.cd)missing.push('Data');if(!c.cu)missing.push('UF');if(!c.cc)missing.push('Falha/Categoria');if(missing.length){let hs=Object.keys(rs[0]||{}).filter(Boolean).join(' | ');throw Error('Colunas obrigatórias ausentes: '+missing.join(', ')+' | Cabeçalhos encontrados: '+hs)}let valid=0,invalid=0,ufs=new Set(),cats=new Set();for(let x of rs){let U=uf(x[c.cu]),C=cat(x[c.cc]),D=date(x[c.cd]);if(U&&C&&D){valid++;ufs.add(U);cats.add(C)}else invalid++}if(!valid)throw Error('Nenhum registro valido.');VALIDATED={f,rs,c};E('btnImport').disabled=false;box.className='validation ok';box.innerHTML=`VALIDAÇÃO OK - ${rs.length} recebidos | ${valid} válidos | ${invalid} inválidos | ${ufs.size} UFs | ${cats.size} categorias. Após importar, o período será ajustado automaticamente para todos os dados. Clique em <b>IMPORTAR E CALCULAR</b>.`;}catch(e){box.className='validation err';box.textContent='VALIDAÇÃO REPROVADA - '+e.message}}async function importFile(){if(!VALIDATED)return alert('Valide o arquivo antes de importar.');let {f,rs,c}=VALIDATED,{ci,cd,cs,cu,cc,cr,cq}=c;DATA=[];let keys=new Set(),ins=0,dup=0,inv=0,now=new Date().toISOString();for(let x of rs){let U=uf(x[cu]),C=cat(x[cc]),D=date(x[cd]),Q=q(cq?x[cq]:1);if(!U||!C||!D){inv++;continue}let INC=ci?String(x[ci]??'').trim():'',SITE=cs?String(x[cs]??'').trim():'',RES=cr?String(x[cr]??'').trim():'';let K=await hash(INC?('INC|'+norm(INC)):[D,U,norm(SITE),C,Q,RES].map(norm).join('|'));if(keys.has(K)){dup++;continue}DATA.push({ID:`IMP-${Date.now()}-${ins}`,Incidente:INC,Data:D,Site:SITE,UF:U,Categoria:C,Resolucao:RES,Quantidade:Q,Arquivo:f.name,Importacao:now,Chave:K});keys.add(K);ins++}saveHistory(f.name,now,DATA);E('mtxt').innerHTML=`Arquivo: <b>${esc(f.name)}</b><br>Processados: ${rs.length}<br>Inseridos: ${ins}<br>Duplicados: ${dup}<br>Inválidos: ${inv}`;E('modal').classList.add('show');E('fUF').value='';E('fCat').value='';E('fQ').value='';let allDates=DATA.map(x=>x.Data).filter(Boolean).sort();E('fI').value=allDates[0]||'';E('fF').value=allDates.at(-1)||'';fill();update();E('validation').className='validation ok';E('validation').innerHTML=`IMPORTAÇÃO CONCLUÍDA - ${ins} registros carregados | ${dup} duplicados removidos | ${inv} inválidos. <b>O dashboard foi substituído pelos dados deste arquivo.</b>`;VALIDATED=null;E('btnImport').disabled=true}document.addEventListener('DOMContentLoaded',()=>{fill();['fUF','fCat','fI','fF'].forEach(id=>E(id).addEventListener('change',update));E('fQ').addEventListener('input',update);E('file').addEventListener('change',()=>{VALIDATED=null;E('btnImport').disabled=true;E('validation').className='validation';E('validation').innerHTML='Arquivo selecionado. Clique em <b>VALIDAR IMPORTAÇÃO</b>.'});loadHistory();renderHistory();if(HISTORY.length)openHistory(0);else update()});
+</script><script>
+const FIELD_ALIASES = {
+  data: ['DATA', 'DIA', 'DATE', 'DT'],
+  incidente: ['INCIDENTE', 'INCIDENT', 'CHAMADO', 'TICKET', 'OS', 'PROTOCOLO'],
+  uf: ['UF', 'ESTADO', 'UNIDADE FEDERATIVA'],
+  site: ['SITE', 'ESTACAO', 'ESTAÇÃO', 'LOCAL', 'UNIDADE'],
+  tipoSite: ['TIPO DE SITE', 'TIPO DO SITE', 'TIPO SITE', 'TIPO DA ESTACAO', 'TIPO DE ESTACAO', 'TIPO ESTACAO', 'SITE TYPE', 'TYPE OF SITE'],
+  causa: ['CAUSA', 'CATEGORIA', 'FALHA', 'CLASSIFICACAO', 'CLASSIFICAÇÃO'],
+  motivo: ['MOTIVO', 'RAZAO', 'RAZÃO', 'SUBCAUSA', 'SUB CAUSA'],
+  acao: ['ACAO', 'AÇÃO', 'RESOLUCAO', 'RESOLUÇÃO', 'SOLUCAO', 'SOLUÇÃO', 'CORRIGIDO'],
+  previsao: ['PREVISAO', 'PREVISÃO', 'PREVISAO DE NORMALIZACAO', 'PREVISÃO DE NORMALIZAÇÃO'],
+  quantidade: ['QUANTIDADE', 'QTDE', 'QTD', 'TOTAL']
+};
+const HISTORY_LIMIT = 10;
+const POSITIONAL_FIELDS = ['data', 'incidente', 'uf', 'site', 'tipoSite', 'causa', 'motivo', 'acao', 'previsao'];
+
+function columnKey(index) {
+  return `COL_${index + 1}`;
+}
+
+function normalizeHeader(value) {
+  return norm(value).replace(/[^A-Z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function headerField(value) {
+  const header = normalizeHeader(value);
+  const matches = Object.entries(FIELD_ALIASES).flatMap(([field, aliases]) =>
+    aliases
+      .map(alias => normalizeHeader(alias))
+      .filter(alias => header === alias || header.startsWith(alias + ' ') || header.endsWith(' ' + alias))
+      .map(alias => ({ field, length: alias.length }))
+  );
+  return matches.sort((a, b) => b.length - a.length)[0]?.field || '';
+}
+
+function isDateValue(value) {
+  if (date(value)) return true;
+  const number = Number(String(value ?? '').replace(',', '.'));
+  return Number.isFinite(number) && number > 20000 && number < 80000;
+}
+
+function parseGrid(grid) {
+  const matrix = grid
+    .map(row => Array.isArray(row) ? row.map(value => String(value ?? '').trim()) : [])
+    .filter(row => row.some(value => value !== ''));
+  if (!matrix.length) return [];
+
+  let headerIndex = -1;
+  for (let index = 0; index < Math.min(matrix.length, 30); index++) {
+    const recognized = matrix[index].filter(value => headerField(value)).length;
+    if (recognized >= 2) {
+      headerIndex = index;
+      break;
+    }
+  }
+
+  if (headerIndex < 0) {
+    const firstLooksLikeData = matrix[0].some(value => uf(value)) && matrix[0].some(isDateValue);
+    if (!firstLooksLikeData) headerIndex = 0;
+  }
+
+  const width = Math.max(...matrix.map(row => row.length));
+  const usedHeaders = new Set();
+  const headers = headerIndex >= 0
+    ? Array.from({ length: width }, (_, index) => {
+      const original = String(matrix[headerIndex][index] ?? '').trim() || columnKey(index);
+      let header = original;
+      let suffix = 2;
+      while (usedHeaders.has(header)) header = `${original}_${suffix++}`;
+      usedHeaders.add(header);
+      return header;
+    })
+    : Array.from({ length: width }, (_, index) => columnKey(index));
+  const firstDataRow = headerIndex >= 0 ? headerIndex + 1 : 0;
+
+  return matrix.slice(firstDataRow)
+    .filter(row => row.some(value => String(value ?? '').trim() !== ''))
+    .map(row => Object.fromEntries(headers.map((header, index) => [header, row[index] ?? ''])));
+}
+
+function parseCSV(text) {
+  const lines = String(text).replace(/^\uFEFF/, '').split(/\r?\n/).filter(line => line.trim());
+  if (!lines.length) return [];
+  const candidates = [';', ',', '\t', '|'];
+  const separator = candidates
+    .map(char => {
+      const counts = lines.slice(0, 8).map(line => line.split(char).length);
+      const consistent = counts.filter(count => count > 1).length;
+      return { char, consistent, width: counts.length ? counts.reduce((sum, count) => sum + count, 0) / counts.length : 0 };
+    })
+    .sort((a, b) => b.consistent - a.consistent || b.width - a.width)[0].char;
+
+  function splitLine(line) {
+    const cells = [];
+    let cell = '';
+    let quoted = false;
+    for (let index = 0; index < line.length; index++) {
+      const char = line[index];
+      if (char === '"') {
+        if (quoted && line[index + 1] === '"') {
+          cell += '"';
+          index++;
+        } else quoted = !quoted;
+      } else if (char === separator && !quoted) {
+        cells.push(cell);
+        cell = '';
+      } else cell += char;
+    }
+    cells.push(cell);
+    return cells;
+  }
+
+  return parseGrid(lines.map(splitLine));
+}
+
+async function parseXLSX(buffer) {
+  const files = await unzip(buffer);
+  const parser = new DOMParser();
+  const strings = [];
+  if (files['xl/sharedStrings.xml']) {
+    const shared = parser.parseFromString(new TextDecoder().decode(files['xl/sharedStrings.xml']), 'application/xml');
+    strings.push(...[...shared.getElementsByTagName('si')].map(item =>
+      [...item.getElementsByTagName('t')].map(text => text.textContent).join('')));
+  }
+
+  const worksheet = files['xl/worksheets/sheet1.xml'];
+  if (!worksheet) throw Error('A primeira aba da planilha não foi encontrada.');
+  const xml = parser.parseFromString(new TextDecoder().decode(worksheet), 'application/xml');
+  const matrix = [...xml.getElementsByTagName('row')].map(row => {
+    const values = [];
+    for (const cell of row.getElementsByTagName('c')) {
+      const ref = cell.getAttribute('r') || 'A1';
+      const letters = (ref.match(/[A-Z]+/) || ['A'])[0];
+      const column = [...letters].reduce((total, letter) => total * 26 + letter.charCodeAt(0) - 64, 0) - 1;
+      const type = cell.getAttribute('t') || '';
+      let value = '';
+      if (type === 'inlineStr') value = [...cell.getElementsByTagName('t')].map(item => item.textContent).join('');
+      else {
+        value = cell.getElementsByTagName('v')[0]?.textContent ?? '';
+        if (type === 's') value = strings[Number(value)] ?? '';
+      }
+      values[column] = value;
+    }
+    return values;
+  });
+  return parseGrid(matrix);
+}
+
+function parseLegacyExcel(text) {
+  const document = new DOMParser().parseFromString(text, 'text/html');
+  const tables = [...document.querySelectorAll('table')];
+  if (tables.length) {
+    const matrix = tables
+      .sort((a, b) => b.rows.length - a.rows.length)[0];
+    return parseGrid([...matrix.rows].map(row => [...row.cells].map(cell => cell.textContent.trim())));
+  }
+
+  const xml = new DOMParser().parseFromString(text, 'application/xml');
+  const rows = [...xml.getElementsByTagName('Row')];
+  if (rows.length) {
+    return parseGrid(rows.map(row => {
+      const values = [];
+      let column = 0;
+      for (const cell of row.getElementsByTagName('Cell')) {
+        const index = Number(cell.getAttribute('ss:Index') || cell.getAttribute('Index'));
+        if (index > 0) column = index - 1;
+        values[column++] = cell.getElementsByTagName('Data')[0]?.textContent ?? '';
+      }
+      return values;
+    }));
+  }
+  throw Error('Formato .xls binário não compatível neste navegador. Salve como .xlsx ou .csv e tente novamente.');
+}
+
+function parseJSON(text) {
+  const parsed = JSON.parse(text);
+  const records = Array.isArray(parsed) ? parsed : Object.values(parsed).find(Array.isArray);
+  if (!Array.isArray(records) || !records.length) throw Error('O JSON não contém uma lista de registros.');
+  if (Array.isArray(records[0])) return parseGrid(records);
+  const headers = [...new Set(records.flatMap(record => record && typeof record === 'object' ? Object.keys(record) : []))];
+  return records
+    .filter(record => record && typeof record === 'object' && !Array.isArray(record))
+    .map(record => Object.fromEntries(headers.map(header => [header, record[header] ?? ''])));
+}
+
+function detectColumns(records) {
+  const headers = Object.keys(records[0] || {});
+  const found = {};
+  const recognizedHeaders = headers.filter(header => headerField(header)).length;
+  for (const header of headers) {
+    const field = headerField(header);
+    if (field && !found[field]) found[field] = header;
+  }
+
+  const valuesFor = header => records.map(record => record[header]).filter(value => String(value ?? '').trim());
+  const bestColumn = predicate => headers
+    .map(header => {
+      const values = valuesFor(header);
+      return { header, score: values.length ? values.filter(predicate).length / values.length : 0 };
+    })
+    .filter(item => item.score >= 0.6)
+    .sort((a, b) => b.score - a.score)[0]?.header;
+
+  found.data ||= bestColumn(isDateValue);
+  found.uf ||= bestColumn(value => Boolean(uf(value)));
+
+  if (recognizedHeaders < 2) {
+    const positional = Object.fromEntries(POSITIONAL_FIELDS.map((field, index) => [field, headers[index]]));
+    for (const field of POSITIONAL_FIELDS) found[field] ||= positional[field];
+  }
+  found.quantidade ||= headers.find(header => FIELD_ALIASES.quantidade.some(alias => normalizeHeader(header).includes(normalizeHeader(alias))));
+  return {
+    cd: found.data,
+    ci: found.incidente,
+    cu: found.uf,
+    cs: found.site,
+    cst: found.tipoSite,
+    cc: found.causa,
+    cm: found.motivo,
+    cr: found.acao,
+    cp: found.previsao,
+    cq: found.quantidade
+  };
+}
+
+async function readSelectedFile() {
+  const file = E('file').files[0];
+  if (!file) throw Error('Selecione um arquivo para analisar.');
+  const extension = file.name.toLowerCase().split('.').pop();
+  let records;
+  if (extension === 'xlsx') records = await parseXLSX(await file.arrayBuffer());
+  else if (extension === 'xls' || extension === 'html' || extension === 'htm' || extension === 'xml') records = parseLegacyExcel(await file.text());
+  else if (extension === 'json') records = parseJSON(await file.text());
+  else if (['csv', 'tsv', 'txt'].includes(extension)) records = parseCSV(await file.text());
+  else throw Error('Formato não compatível. Use CSV, TSV, TXT, XLSX, XLS (HTML/XML) ou JSON.');
+  if (!records.length) throw Error('Nenhum registro de dados foi encontrado no arquivo.');
+  return { f: file, rs: records };
+}
+
+function mapRecord(row, columns, fileName, importedAt, index) {
+  const get = key => columns[key] ? String(row[columns[key]] ?? '').trim() : '';
+  const cause = get('cc') || get('cm');
+  return {
+    ID: `IMP-${Date.now()}-${index}`,
+    Incidente: get('ci'),
+    Data: date(get('cd')),
+    UF: uf(get('cu')),
+    Site: get('cs'),
+    TipoSite: get('cst'),
+    Categoria: cause,
+    Causa: get('cc') || cause,
+    Motivo: get('cm'),
+    Resolucao: get('cr'),
+    Acao: get('cr'),
+    Previsao: date(get('cp')) || get('cp'),
+    Quantidade: columns.cq ? q(row[columns.cq]) : 1,
+    Arquivo: fileName,
+    Importacao: importedAt
+  };
+}
+
+async function validateImport() {
+  VALIDATED = null;
+  const box = E('validation');
+  box.className = 'validation warn';
+  box.textContent = 'Lendo e analisando os dados do arquivo...';
+  try {
+    const { f, rs } = await readSelectedFile();
+    const columns = detectColumns(rs);
+    const mapped = rs.map((row, index) => mapRecord(row, columns, f.name, '', index));
+    const usable = mapped.filter(row => row.UF || row.Causa || row.Motivo || row.Site || row.Incidente);
+    if (!usable.length) throw Error('Não foi possível reconhecer registros. Confira se o arquivo contém dados tabulares.');
+    VALIDATED = { f, rs, columns };
+    box.className = 'validation ok';
+    box.textContent = `Validação concluída: ${rs.length} linhas de dados reconhecidas. ${usable.length} registros serão importados.`;
+  } catch (error) {
+    box.className = 'validation err';
+    box.textContent = 'FALHA NA LEITURA - ' + error.message;
+  }
+}
+
+async function importFile() {
+  if (!E('file').files.length) {
+    E('file').click();
+    return;
+  }
+  if (!VALIDATED) {
+    await validateImport();
+    if (!VALIDATED) return;
+  }
+  const { f, rs, columns } = VALIDATED;
+  const importedAt = new Date().toISOString();
+  const keys = new Set();
+  let duplicates = 0;
+  const imported = [];
+  for (let index = 0; index < rs.length; index++) {
+    const row = mapRecord(rs[index], columns, f.name, importedAt, index);
+    if (!hasUsefulData(row)) continue;
+    const key = await hash([row.Incidente, row.Data, row.UF, row.Site, row.Causa, row.Motivo, row.Acao].map(norm).join('|'));
+    if (keys.has(key)) {
+      duplicates++;
+      continue;
+    }
+    row.Chave = key;
+    imported.push(row);
+    keys.add(key);
+  }
+  DATA = imported;
+  saveHistory(f.name, importedAt, DATA);
+  for (const id of ['fUF', 'fSite', 'fCat', 'fQ', 'detailUF']) E(id).value = '';
+  E('fI').value = '';
+  E('fF').value = '';
+  fill();
+  const dates = DATA.map(row => row.Data).filter(Boolean).sort();
+  E('fI').value = dates[0] || '';
+  E('fF').value = dates.at(-1) || '';
+  update();
+  E('validation').className = 'validation ok';
+  E('validation').textContent = `Importação concluída: ${DATA.length} registros carregados de ${f.name}.`;
+  VALIDATED = null;
+  E('file').value = '';
+  E('modal').classList.add('show');
+}
+
+function clearImport() {
+  DATA = [];
+  VALIDATED = null;
+  E('file').value = '';
+  for (const id of ['fUF', 'fSite', 'fCat', 'fQ', 'fI', 'fF', 'detailUF']) E(id).value = '';
+  E('modal').classList.remove('show');
+  fill();
+  update();
+  E('validation').className = 'validation';
+  E('validation').textContent = 'Importação limpa. Clique em Importar para carregar outro arquivo.';
+}
+
+function cats() {
+  return [...new Set(DATA.map(row => row.Causa || row.Categoria).filter(Boolean))].sort();
+}
+
+function fill() {
+  const selectedUF = E('fUF').value;
+  const selectedSite = E('fSite').value;
+  const states = [...new Set(DATA.map(row => row.UF).filter(Boolean))].sort();
+  E('fUF').innerHTML = '<option value="">Todas as UFs</option>' + states.map(value => `<option value="${esc(value)}">${esc(value)}</option>`).join('');
+  if (states.includes(selectedUF)) E('fUF').value = selectedUF;
+  const sites = [...new Set(DATA.filter(row => !E('fUF').value || row.UF === E('fUF').value).map(row => row.Site).filter(Boolean))].sort();
+  E('fSite').innerHTML = '<option value="">Todos os sites</option>' + sites.map(value => `<option value="${esc(value)}">${esc(value)}</option>`).join('');
+  if (sites.includes(selectedSite)) E('fSite').value = selectedSite;
+  const detailUF = E('detailUF');
+  const selectedDetailUF = detailUF.value;
+  const detailUFs = [...new Set(DATA.map(row => row.UF).filter(Boolean))].sort();
+  detailUF.innerHTML = '<option value="">Todas as UFs</option>' + detailUFs.map(value => `<option value="${esc(value)}">${esc(value)}</option>`).join('');
+  if (detailUFs.includes(selectedDetailUF)) detailUF.value = selectedDetailUF;
+  const selectedCause = E('fCat').value;
+  E('fCat').innerHTML = '<option value="">Todas as causas</option>' + cats().map(value => `<option value="${esc(value)}">${esc(value)}</option>`).join('');
+  if (cats().includes(selectedCause)) E('fCat').value = selectedCause;
+}
+
+function rows() {
+  const query = norm(E('fQ').value);
+  return DATA.filter(row =>
+    hasUsefulData(row) &&
+    (!E('fUF').value || row.UF === E('fUF').value) &&
+    (!E('fSite').value || row.Site === E('fSite').value) &&
+    (!E('fCat').value || (row.Causa || row.Categoria) === E('fCat').value) &&
+    (!E('fI').value || !row.Data || row.Data >= E('fI').value) &&
+    (!E('fF').value || !row.Data || row.Data <= E('fF').value) &&
+    (!query || norm(JSON.stringify(row)).includes(query))
+  );
+}
+
+function hasUsefulData(row) {
+  return [row.Incidente, row.UF, row.Site, row.Causa, row.Categoria, row.Motivo]
+    .some(value => String(value ?? '').trim() !== '');
+}
+
+function detailRows() {
+  const selectedUF = E('detailUF').value;
+  return rows().filter(row => !selectedUF || row.UF === selectedUF);
+}
+
+function extractDetails() {
+  const headers = ['Dia', 'Incidente', 'UF', 'Site', 'Tipo de site', 'Causa', 'Motivo', 'Ação', 'Previsão'];
+  const values = detailRows().slice().sort((a, b) => String(b.Data || '').localeCompare(String(a.Data || ''))).map(row => [
+    row.Data, row.Incidente, row.UF, row.Site, row.TipoSite,
+    row.Causa || row.Categoria, row.Motivo, row.Acao || row.Resolucao, row.Previsao
+  ]);
+  const csv = [headers, ...values].map(line => line
+    .map(value => `"${String(value ?? '').replace(/"/g, '""')}"`)
+    .join(',')).join('\r\n');
+  const url = URL.createObjectURL(new Blob(['\uFEFF', csv], { type: 'text/csv;charset=utf-8' }));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'analitico-das-categorizacoes.csv';
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function renderRank(elementId, counts, emptyText) {
+  const values = Object.entries(counts).sort((a, b) => b[1].count - a[1].count);
+  const maximum = Math.max(1, ...values.map(([, item]) => item.count));
+  E(elementId).innerHTML = values.length
+    ? '<div class="barlist">' + values.map(([key, item]) => `<div class="rank-row"><div class="rank-label" title="${esc(item.label)}">${esc(item.label)}</div><div class="bartrack"><div class="barfill" style="width:${item.count / maximum * 100}%"></div></div><b>${item.count}</b></div>`).join('') + '</div>'
+    : `<div class="history-empty">${emptyText}</div>`;
+}
+
+function collectRankCounts(rows, getter, emptyLabel = '') {
+  const counts = {};
+  for (const row of rows) {
+    const rawLabel = String(getter(row) ?? '').trim();
+    if (!rawLabel && !emptyLabel) continue;
+    const label = rawLabel || emptyLabel;
+    const key = normalizeRankKey(label);
+    if (!key) continue;
+    if (!counts[key]) counts[key] = { label: String(label).trim(), count: 0 };
+    counts[key].count++;
+  }
+  return counts;
+}
+
+function update() {
+  const filtered = rows();
+  const causes = collectRankCounts(filtered, row => String(row.Causa ?? '').trim() || row.Categoria, 'Sem causa informada');
+  const motives = collectRankCounts(filtered, row => row.Motivo, 'Sem motivo informado');
+  const regions = collectRankCounts(filtered, row => row.UF);
+  const sites = collectRankCounts(filtered, row => row.Site);
+  const leadingCause = Object.entries(causes).sort((a, b) => b[1].count - a[1].count)[0];
+  const leadingMotive = Object.entries(motives).sort((a, b) => b[1].count - a[1].count)[0];
+  const leadingRegion = Object.entries(regions).sort((a, b) => b[1].count - a[1].count)[0];
+  const total = filtered.reduce((sum, row) => sum + q(row.Quantidade), 0);
+  E('total').textContent = total;
+  E('records').textContent = filtered.length;
+  E('ufs').textContent = new Set(filtered.map(row => row.UF).filter(Boolean)).size;
+  E('leadQty').textContent = leadingCause ? leadingCause[1].count : 0;
+  E('lead').textContent = leadingCause ? leadingCause[1].label : '-';
+  E('topCause').textContent = leadingCause ? `${leadingCause[1].label} (${leadingCause[1].count})` : 'Sem dados';
+  E('topMotive').textContent = leadingMotive ? `${leadingMotive[1].label} (${leadingMotive[1].count})` : 'Sem dados';
+  E('summary').innerHTML = `Foram contabilizadas <b>${total}</b> ocorrências em <b>${filtered.length}</b> registros. ${leadingRegion ? `A UF líder é <b>${esc(leadingRegion[1].label)}</b>, com <b>${leadingRegion[1].count}</b> registros.` : ''} ${leadingCause ? `A principal causa é <b>${esc(leadingCause[1].label)}</b>, com <b>${leadingCause[1].count}</b> registros.` : ''} ${leadingMotive ? `O principal motivo é <b>${esc(leadingMotive[1].label)}</b>, com <b>${leadingMotive[1].count}</b> registros.` : ''}`;
+  E('last').textContent = DATA.map(row => row.Importacao).filter(Boolean).sort().at(-1)?.slice(0, 10).split('-').reverse().join('/') || '-';
+  renderRank('cCause', causes, 'Nenhuma causa informada');
+  renderRank('cMotive', motives, 'Nenhum motivo informado');
+  const ufCounts = Object.fromEntries([...new Set([...Object.keys(regions), ...UFS])].map(ufCode => [ufCode, regions[normalizeRankKey(ufCode)]?.count || 0]));
+  drawUF(ufCounts);
+  const categoryCounts = Object.fromEntries(Object.entries(causes).map(([key, item]) => [item.label, item.count]));
+  drawCat(categoryCounts);
+  drawTime(filtered);
+  E('dataBody').innerHTML = detailRows().slice().sort((a, b) => String(b.Data || '').localeCompare(String(a.Data || ''))).slice(0, 500).map(row =>
+    `<tr><td>${esc(row.Data || '')}</td><td>${esc(row.Incidente || '')}</td><td>${esc(row.UF || '')}</td><td>${esc(row.Site || '')}</td><td>${esc(row.TipoSite || '')}</td><td>${esc(row.Causa || row.Categoria || '')}</td><td>${esc(row.Motivo || '')}</td><td>${esc(row.Acao || row.Resolucao || '')}</td><td>${esc(row.Previsao || '')}</td></tr>`
+  ).join('');
+}
+
+function clearF() {
+  for (const id of ['fUF', 'fSite', 'fCat', 'fQ']) E(id).value = '';
+  const dates = DATA.map(row => row.Data).filter(Boolean).sort();
+  E('fI').value = dates[0] || '';
+  E('fF').value = dates.at(-1) || '';
+  fill();
+  update();
+}
+
+function saveHistory(fileName, importedAt, data) {
+  const compact = data.map(row => ({
+    Data: row.Data, Incidente: row.Incidente, UF: row.UF, Site: row.Site, TipoSite: row.TipoSite,
+    Causa: row.Causa, Categoria: row.Categoria, Motivo: row.Motivo, Acao: row.Acao,
+    Resolucao: row.Resolucao, Previsao: row.Previsao, Quantidade: row.Quantidade,
+    Arquivo: row.Arquivo, Importacao: row.Importacao
+  }));
+  const next = [{ fileName, importedAt, data: compact }, ...HISTORY.filter(item => !(item.fileName === fileName && item.importedAt === importedAt))].slice(0, HISTORY_LIMIT);
+  try {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(next));
+    HISTORY = next;
+    HISTORY_ERROR = '';
+  } catch (error) {
+    HISTORY_ERROR = 'Não foi possível salvar este arquivo no histórico local: ' + error.message;
+  }
+  renderHistory();
+  return !HISTORY_ERROR;
+}
+
+function renderHistory() {
+  const warning = HISTORY_ERROR ? `<div class="history-error">${esc(HISTORY_ERROR)}</div>` : '';
+  const entries = HISTORY.map((item, index) =>
+    `<div class="history-item"><span class="history-name" title="${esc(item.fileName)}">${esc(item.fileName)}</span><span class="history-date">${new Date(item.importedAt).toLocaleDateString('pt-BR')}</span><span class="history-count">${item.data.length} registros</span><button class="btn blueb history-open" onclick="openHistory(${index})">ABRIR</button></div>`
+  ).join('');
+  E('historyList').innerHTML = warning + (entries || '<div class="history-empty">Nenhum arquivo importado.</div>');
+}
+
+function openHistory(index) {
+  const item = HISTORY[index];
+  if (!item) return;
+  DATA = item.data.map(row => ({
+    ...row,
+    TipoSite: row.TipoSite || row['Tipo de site'] || row['Tipo do site'] || row['TIPO DE SITE'] || row['TIPO DO SITE'] || ''
+  }));
+  for (const id of ['fUF', 'fSite', 'fCat', 'fQ', 'fI', 'fF', 'detailUF']) E(id).value = '';
+  fill();
+  update();
+  E('validation').className = 'validation ok';
+  E('validation').textContent = `Dashboard restaurado: ${item.fileName} (${new Date(item.importedAt).toLocaleString('pt-BR')}).`;
+}
+
+function prepareAnalysisDashboard() {
+  document.getElementById('summary').previousElementSibling.textContent = 'Resumo executivo';
+  E('total').closest('.card').hidden = true;
+  document.querySelector('.kpis').style.gridTemplateColumns = 'repeat(auto-fit,minmax(180px,1fr))';
+  const filters = document.querySelector('.filters');
+  if (!E('fSite')) {
+    const siteFilter = document.createElement('div');
+    siteFilter.className = 'flt';
+    siteFilter.innerHTML = '<label for="fSite">Site da UF selecionada</label><select id="fSite"><option value="">Todos os sites</option></select>';
+    filters.insertBefore(siteFilter, filters.querySelector('button'));
+  }
+  const detail = document.querySelector('#detail table thead tr');
+  detail.innerHTML = '<th>Dia</th><th>Incidente</th><th>UF</th><th>Site</th><th>Tipo de site</th><th>Causa</th><th>Motivo</th><th>Ação</th><th>Previsão</th>';
+  const detailPanel = document.getElementById('detail');
+  const detailTitle = detailPanel.querySelector('h3');
+  detailTitle.textContent = 'Analítico das Categorizações';
+  detailPanel.querySelector('.detail-heading')?.remove();
+  const detailHeading = document.createElement('div');
+  detailHeading.className = 'detail-heading';
+  const detailActions = document.createElement('div');
+  detailActions.className = 'detail-actions';
+  const detailUF = document.createElement('select');
+  detailUF.id = 'detailUF';
+  detailUF.setAttribute('aria-label', 'Filtrar por UF');
+  const extractButton = document.createElement('button');
+  extractButton.className = 'btn redb';
+  extractButton.textContent = 'Extrair';
+  extractButton.addEventListener('click', extractDetails);
+  detailActions.append(detailUF, extractButton);
+  detailHeading.append(detailTitle, detailActions);
+  detailPanel.insertBefore(detailHeading, detailPanel.firstChild);
+  const navigation = document.querySelector('.nav');
+  const toolbar = document.querySelector('.toolbar');
+  document.querySelector('.top > div:last-child').hidden = true;
+  const importPanel = toolbar.closest('.panel');
+  const leaderCard = E('leadQty').closest('.card');
+  leaderCard.querySelector('.lab').textContent = 'Registros da Causa Líder';
+  const leaderInfo = document.createElement('div');
+  leaderInfo.className = 'leader-info';
+  leaderInfo.append(leaderCard.querySelector('.lab'), E('leadQty'));
+  const leaderActions = document.createElement('div');
+  leaderActions.className = 'import-actions';
+  const importButton = E('btnImport');
+  importButton.textContent = 'Importar';
+  const previousImportCard = E('file').closest('.import-card');
+  const clearButton = previousImportCard?.querySelector('.btn.redb') || document.createElement('button');
+  clearButton.className = 'btn redb';
+  clearButton.type = 'button';
+  clearButton.textContent = 'Limpar';
+  clearButton.addEventListener('click', clearImport);
+  leaderActions.append(E('file'), importButton, clearButton, E('validation'));
+  leaderCard.classList.add('leader-card');
+  leaderCard.replaceChildren(leaderInfo);
+  const importCard = document.createElement('div');
+  importCard.className = 'card import-card';
+  importCard.append(leaderActions);
+  leaderCard.parentElement.append(importCard);
+  previousImportCard?.remove();
+  importPanel.hidden = true;
+  E('historyPanel').hidden = true;
+  navigation.hidden = true;
+  navigation.style.display = 'none';
+  E('file').hidden = true;
+  importButton.disabled = false;
+  const validateButton = toolbar.querySelector('button[onclick="validateImport()"]');
+  if (validateButton) validateButton.remove();
+  const dashboard = document.getElementById('regional');
+  if (!E('causeDashboard')) {
+    const section = document.createElement('section');
+    section.id = 'causeDashboard';
+    section.className = 'grid cause-dashboard';
+    section.innerHTML = '<div class="panel"><h3>Principais causas</h3><div id="cCause" class="rank-chart"></div></div><div class="panel"><h3>Principais motivos</h3><div id="cMotive" class="rank-chart"></div></div><div class="panel spotlight"><h3>Causa principal</h3><strong id="topCause">Sem dados</strong><h3>Motivo principal</h3><strong id="topMotive">Sem dados</strong></div>';
+    dashboard.insertAdjacentElement('afterend', section);
+  }
+  const causeCard = E('topCause').closest('.spotlight');
+  dashboard.insertBefore(causeCard, E('summary').closest('.panel'));
+  if (!document.getElementById('analysisStyles')) {
+    const style = document.createElement('style');
+    style.id = 'analysisStyles';
+    style.textContent = '.filters{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.leader-card{display:flex;align-items:flex-start}.leader-info{min-width:0}.import-card{display:flex;align-items:center;justify-content:center}.import-actions{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%}.import-actions .btn{width:min(180px,100%);padding:8px;font-size:12px}.import-actions .validation{display:none}.detail-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.detail-heading h3{margin:0}.detail-actions{display:flex;align-items:center;gap:10px}.detail-actions select{min-width:90px;padding:5px;border:1px solid #cdd5de;border-radius:4px}.detail-actions .btn{min-width:90px;padding:5px 10px}.cause-dashboard{grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:12px}.rank-chart{max-height:300px;overflow:auto}.rank-row{display:grid;grid-template-columns:minmax(90px,1fr) minmax(70px,1.5fr) 36px;align-items:center;gap:8px;margin:9px 0;font-size:12px}.rank-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rank-row>b{text-align:right}.spotlight{background:#fff8e7;border:2px solid #e4ad37}.spotlight strong{display:block;font-size:20px;color:#9a5b00;margin:8px 0 22px;overflow-wrap:anywhere}.history-panel{grid-column:1/-1;margin-top:0;padding:10px 14px;background:#fff;border:1px solid #dde2e8;border-radius:10px}.history-panel h4{margin:0 0 6px}.history-list{display:grid;gap:4px;max-height:130px;overflow:auto}.history-item{display:grid;grid-template-columns:minmax(80px,1fr) auto auto auto;align-items:center;gap:10px;padding:5px 8px;background:#f5f6f7;border-radius:5px;font-size:11px}.history-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}.history-date,.history-count{color:#475467;white-space:nowrap}.history-open{padding:4px 10px;font-size:11px}@media(max-width:600px){.history-item{grid-template-columns:minmax(80px,1fr) auto}.history-date,.history-count{display:none}.detail-heading{align-items:flex-start;flex-wrap:wrap}.detail-actions{width:100%;justify-content:flex-end}}';
+    document.head.appendChild(style);
+  }
+  document.getElementById('file').setAttribute('accept', '.csv,.tsv,.txt,.xlsx,.xls,.json,.html,.htm,.xml');
+  E('validation').textContent = 'Clique em Importar para selecionar um arquivo.';
+  document.querySelector('.notice').childNodes[0].textContent = 'Compatível com CSV, TSV, TXT, XLSX, XLS em HTML/XML e JSON. As colunas são reconhecidas pelo conteúdo, pelos nomes equivalentes ou pela ordem do modelo DIA, INCIDENTE, UF, SITE, TIPO DE SITE, CAUSA, MOTIVO, AÇÃO e PREVISÃO.';
+  E('fUF').addEventListener('change', () => {
+    fill();
+    E('fSite').value = '';
+    update();
+  });
+  E('fSite').addEventListener('change', update);
+  E('detailUF').addEventListener('change', update);
+  fill();
+  renderHistory();
+}
+
+prepareAnalysisDashboard();
+
+document.addEventListener('DOMContentLoaded', () => {
+  E('file').addEventListener('change', () => {
+    VALIDATED = null;
+    if (!E('file').files.length) return;
+    E('btnImport').disabled = false;
+    E('validation').className = 'validation';
+    E('validation').textContent = 'Arquivo selecionado. Validando e importando...';
+    importFile();
+  });
+  update();
+});
+
+</script>
+
+</body></html>
